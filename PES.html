@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شحن المجوهرات - PES 2025</title>
+    <link rel="stylesheet" href="PES.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PES 2025</h1>
+            <p>انضم إلى الملايين واستمتع بأفضل تجربة كرة قدم في العالم!</p>
+        </div>
+    </header>
+
+    <section class="recharge">
+        <div class="container">
+            <h2>شحن المجوهرات</h2>
+            <p>املأ النموذج أدناه لشحن المجوهرات مجانا والاستفادة من العروض الحصرية.</p>
+            
+            <!-- نموذج إدخال المعلومات -->
+            <form id="recharge-form">
+                <div class="form-group">
+                    <label for="player-name">اسم اللاعب:</label>
+                    <input type="text" id="player-name" name="player-name" required placeholder="أدخل اسم اللاعب">
+                </div>
+                <div class="form-group">
+                    <label for="player-id">معرف اللاعب (ID):</label>
+                    <input type="text" id="player-id" name="player-id" required placeholder="أدخل معرف اللاعب">
+                </div>
+                <div class="form-group">
+                    <label for="amount">كمية المجوهرات:</label>
+                    <select id="amount" name="amount" required>
+                        <option value="100">100 مجوهرة</option>
+                        <option value="500">500 مجوهرة</option>
+                        <option value="1000">1000 مجوهرة</option>
+                        <option value="5000">5000 مجوهرة</option>
+                    </select>
+                </div>
+                <button type="submit" class="cta-button">شحن الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 PES 2025. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- ربط ملف JavaScript -->
+    <script src="pes.js"></script>
+</body>
+</html>
